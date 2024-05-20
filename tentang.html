@@ -38,7 +38,7 @@
             <div type="button" id="menuToggle" class="fak" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fa-solid fa-bars size-burger"></i>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/tentang" onclick="location.href = 'tentang.html';">Tentang Saya</a></li>
+                <li><a class="dropdown-item" href="/home" onclick="location.href = 'indexhtml';">Home</a></li>
                 <li><a class="dropdown-item" href="/projek" onclick="location.href = 'projek.html';">Projek</a></li>
                 <li><a class="dropdown-item" href="/keahlian" onclick="location.href = 'keahlian.html';">Keahlian</a></li>
                 <li><a class="dropdown-item" href="/contact" onclick="location.href = 'contact.html';">Kontak</a></li>
@@ -50,55 +50,43 @@
     </div>
 
     <div class="container">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-12">
-          <img src="res/foto-square.png" alt="" class="rounded-5 d-block mx-auto my-3 mt-4" style="width:50%">
-          <p class="h1 text-center fw-bold">
-            M. Haisyam Khairizmi
+          <p class="h1 text-center fw-bold mt-4">
+            Tentang Saya
           </p>
           <p class="fs-6 text-center">
-            @mhmdkhrzmi
+            <i class="fa-solid fa-graduation-cap"></i>
           </p>
           <p class="fs-5 text-center">
             Hey there!<br>I'm a <span id="auto-type"></span>
           </p>
         </div>
-      </div>
-      <div class="row border border-1 m-3 rounded">
-        <div class="col-4 text-center">
-          <p class="h6 m-1">
-            Age
-          </p>
-          <p class="h1">
-            18
-          </p>
-        </div>
-        <div class="col-4 text-center border-start border-end">
-          <p class="h6 m-1">
-            Rank
-          </p>
-          <p class="h1">
-            1<sup>st</sup>
-          </p>
-        </div>
-        <div class="col-4 text-center">
-          <p class="h6 m-1">
-            Projects
-          </p>
-          <p class="h1">
-            6
-          </p>
+      </div> -->
+      <p class="h1 text-center fw-bold mt-4 mb-4">
+        Tentang Saya
+      </p>
+      <div class="text-center">
+        <div class="card-body">
+          <i class="fa-solid fa-graduation-cap icon-grad"></i>
+          <h5 class="card-title fw-bold">Pendidikan</h5>
+          <p class="card-text">SMKN 1 KERTAJATI</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-7">
-          <a href="https://portofolio-haisyam.vercel.app/res/foto-square.png" download>
-            <button class="btn btn-danger w-100">Download CV</button>
-          </a>
+      <hr class="border border-secondary border-1 opacity-50">
+      <div class="card mb-3" style="background-color:#f4f5ff;">
+        <div class="card-body">
+          <!-- <h5 class="card-title">Card title</h5> -->
+          <p class="card-text">
+            Lulusan dari SMKN 1 Kertajati jurusan Teknik Pesawat Udara dengan minat besar di bidang IT. Selama belajar di SMKN, saya memperoleh keterampilan dalam perawatan dan operasional pesawat udara. Di sisi lain, saya juga gemar mengotak-atik komputer, mempelajari pemrograman, dan mengembangkan aplikasi.
+          </p>
+          <p class="card-text">           
+            Hobi IT, saya memperkaya kemampuan teknis saya dan mengasah keterampilan problem-solving serta berpikir kritis. Kombinasi pengetahuan di bidang penerbangan dan teknologi memberikan saya perspektif unik untuk mengintegrasikan IT dalam industri penerbangan.
+          </p>
+          <p class="card-text"><small class="text-body-secondary"><i>Juli, 2021 - Mei, 2024</i></small></p>
         </div>
-        <div class="col-5">
-          <button class="btn btn-outline-danger w-100" onclick="location.href = 'https://github.com/Haisyam';"><i class="fa-solid fa-briefcase pe-2"></i></i>Projects</button>
       </div>
+      
     </div>
   </div>
 </div>
@@ -119,14 +107,14 @@
 
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-<script>
+<!-- <script>
   var typed = new Typed('#auto-type', {
     strings: ['Junior Web Dev.', 'Human.', 'Nobody.'],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true,
   });
-</script>
+</script> -->
 
 </body>
 </html>
