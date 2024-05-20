@@ -25,10 +25,3 @@
 //     document.body.classList.remove("dark-mode");
 //   }
 // }
-
-var typed = new Typed(".auto-type",{
-  strings: ['Junior Web Developer', 'Listening to music'],
-  typeSpeed: 150,
-  backSpeed: 150,
-  looped: true,
-});
